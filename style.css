@@ -85,13 +85,10 @@ body{ background-color: #000 !important; overflow-x: hidden;}
     text-align: center;
 }
 
+/* Image in-out */
 .image_none{ opacity: 0; top: 100vh;}
 .image_show{ top: 60%; }
 .image_fade_out{ top: -100vh; opacity: 0.3;}
-
-.hero_light{ position: absolute; left: 50%; }
-.light_on{ top: -15vh; transition: all 1s cubic-bezier(.215, .61, .355, 1); }
-.light_off{ top: -100vh }
 
 .icon_matteo_morganti, 
 .icon_matteo_morganti_two, 
@@ -114,7 +111,6 @@ body{ background-color: #000 !important; overflow-x: hidden;}
     font-family: 'Anton', sans-serif;
     transition: all 1s cubic-bezier(.215, .61, .355, 1);
 }
-
 /* End Hero */
 
 /* Start Profile e Cv */
@@ -123,7 +119,6 @@ body{ background-color: #000 !important; overflow-x: hidden;}
     flex-direction: column;
     justify-content: center;
 }
-
 .profile-title{
     margin-bottom: 40px;
 }
